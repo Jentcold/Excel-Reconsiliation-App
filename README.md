@@ -159,20 +159,20 @@ Shown with sample data.
 Totals across the reconciled table, month-on-month trend, and the top sellers by
 net sales.
 
-![Analytics dashboard](docs/screenshots/analytics.png)
+![Analytics dashboard](./docs/screenshots/analytics.png)
 
 ### Processed table — Summary
 
 One row per product: the month's sales joined to warehouse stock and the PSI
 figures, with a totals row pinned to the bottom.
 
-![Summary sheet in the dark theme](docs/screenshots/processed-table-dark.png)
+![Summary sheet in the dark theme](./docs/screenshots/processed-table-dark.png)
 
 ### PSI detail — light theme
 
 The full daily sell-out columns, one per day of the month so far.
 
-![PSI detail sheet in the light theme](docs/screenshots/psi-detail-light.png)
+![PSI detail sheet in the light theme](./docs/screenshots/psi-detail-light.png)
 
 ---
 

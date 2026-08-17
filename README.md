@@ -1,12 +1,13 @@
-# Stocktake
+# Excel Reconciliation App
 
 **Three monthly Excel exports in, one reconciled table out — computed when the files arrive, not when the page opens.**
 
 Built during an internship at a phone distributor, where reconciling sales against
 stock was a recurring manual job: open the daily sell-out report, the monthly sales
 summary and the warehouse inventory, match products across three different naming
-conventions by hand, and paste the result into a fourth workbook. Stocktake does
-that join on upload and serves the result to everyone else instantly.
+conventions by hand, and paste the result into a fourth workbook. This app does that
+join the moment the files are uploaded, and serves the result to everyone else
+instantly.
 
 `FastAPI` · `pandas` · `Appwrite` · `vanilla JS` — no frontend framework, no build step.
 
@@ -149,11 +150,29 @@ row size limit.
 
 ---
 
-## Screen Shots
+## Screenshots
 
+Shown with sample data.
 
+### Analytics
 
+Totals across the reconciled table, month-on-month trend, and the top sellers by
+net sales.
 
+![Analytics dashboard](docs/screenshots/analytics.png)
+
+### Processed table — Summary
+
+One row per product: the month's sales joined to warehouse stock and the PSI
+figures, with a totals row pinned to the bottom.
+
+![Summary sheet in the dark theme](docs/screenshots/processed-table-dark.png)
+
+### PSI detail — light theme
+
+The full daily sell-out columns, one per day of the month so far.
+
+![PSI detail sheet in the light theme](docs/screenshots/psi-detail-light.png)
 
 ---
 

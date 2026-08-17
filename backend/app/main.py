@@ -12,7 +12,7 @@ from .routers import admin, auth_routes, items, mapping, reports, uploads
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("excel-automation")
 
-app = FastAPI(title="Stocktake", version="2.0.0")
+app = FastAPI(title="Excel Reconciliation App", version="2.0.0")
 
 app.add_middleware(
     CORSMiddleware,

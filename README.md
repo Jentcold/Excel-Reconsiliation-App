@@ -23,7 +23,7 @@ that join on upload and serves the result to everyone else instantly.
 - **Separates** three roles server-side: admins manage accounts, commercial owns
   the data, sales sees only the item catalogue.
 
-## The design decision worth reading
+## The design decision 
 
 The first version computed the table whenever someone opened it. Every tab switch
 meant downloading three workbooks from object storage, parsing them with openpyxl,
@@ -146,6 +146,16 @@ Nothing is *looked up* by prefix — each table holds the id of what it owns, so
 lookups are exact. The prefix keeps the bucket readable in the console. The table
 is stored as a JSON blob rather than a row so a column-per-PSI-date can't hit the
 row size limit.
+
+---
+
+## Screen Shots
+
+
+
+
+
+---
 
 ## Running it
 

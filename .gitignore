@@ -1,0 +1,23 @@
+# Secrets — .env holds the Appwrite API key. Never commit it.
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Editors / OS / tooling
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Local data
+*.xlsx
+*.xls
+*.xlsm
+!docs/**/*.xlsx

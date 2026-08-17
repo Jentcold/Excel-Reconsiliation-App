@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stocktake</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="topbar">
+  <h1>Stocktake</h1>
+  <span class="spacer"></span>
+  <button class="ghost icon" id="refresh" title="Reload this tab from the server">↻</button>
+  <button class="ghost icon" id="theme-toggle" title="Switch theme">◐</button>
+  <div class="whoami">
+    <div id="who-name">—</div>
+    <div class="role" id="who-role"></div>
+  </div>
+  <button id="logout">Sign out</button>
+</header>
+
+<nav class="tabs" id="tabs" role="tablist"></nav>
+<main id="view"></main>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

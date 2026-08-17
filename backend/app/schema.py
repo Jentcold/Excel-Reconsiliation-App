@@ -1,0 +1,16 @@
+TBL_MAPPING = "mapping"
+TBL_UPLOADS = "uploads"
+TBL_ITEMS = "items"
+TBL_CACHE = "cache_index"
+
+ROLE_ADMIN = "admin"
+ROLE_COMMERCIAL = "commercial"
+ROLE_SALES = "sales"
+ROLES = (ROLE_ADMIN, ROLE_COMMERCIAL, ROLE_SALES)
+
+KIND_DSR = "dsr"
+KIND_PSI = "psi"
+KIND_INVENTORY = "inventory"
+KINDS = (KIND_DSR, KIND_PSI, KIND_INVENTORY)
+
+MONTHLY_KINDS = (KIND_DSR, KIND_INVENTORY)
